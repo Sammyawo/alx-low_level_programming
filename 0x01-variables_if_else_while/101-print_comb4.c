@@ -19,7 +19,7 @@ putchar((digit2 % 10) + '0');
 putchar((digit3 % 10) + '0');
 
 if (digit == 7 && digit2 == 8 && digit3 == 9)
-contonue;
+continue;
 putchar(',');
 putchar(' ');
 }
