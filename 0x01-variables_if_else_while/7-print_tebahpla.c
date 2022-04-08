@@ -7,6 +7,7 @@
  */
 
 int main(void)
+
 {
 char alphabet;
 
@@ -18,4 +19,6 @@ putchar(alphabet);
 putchar('\n');
 
 return (0);
+
+
 }
