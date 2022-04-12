@@ -1,8 +1,8 @@
 #include <stdio.h>
-/**                                                                                                                           
- * main - print the first 50 Fibonacci numbers                                                                                
+/**
+ * main - print the first 50 Fibonacci numbers
  *
- * Return: always 0.                                                                                                          
+ * Return: always 0.
  */
 int main(void)
 {
@@ -18,11 +18,11 @@ printf("%lu", k);
 {
 if (count == 49)
 {
-putchar("\n");
+putchar('\n');
 }
 else
 {
-printf(",");
+printf(", ");
 }
 }
 }
