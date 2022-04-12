@@ -5,7 +5,7 @@
  * Return: Always 0.
  */
 int main(void)
-{ 
+{
 int i, res;
 
 for (i = 0; i < 1024; i++)
