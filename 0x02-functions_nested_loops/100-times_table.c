@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - print all natural numbers from n to 98.
+ * print_times_table - print the times table for n
  *
  * @n: the multiplications table requested.
  * Return: Always 0.
  */
-void print_times_table(int n);
+void print_times_table(int n)
 
 {
 int i, j, res;
