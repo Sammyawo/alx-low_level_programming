@@ -1,25 +1,21 @@
-#include "main.h"
+#include <stdio.h>
+int main(void)
+{
+int n;
+int a[5];
+int *p;
+a[2] = 1024;
+p = &n;
 /**
- * _atoi - convert to a int
- * 
- * @s: string
- * Return: int
+ * write your line of code here...
+ * Remember:
+ * - you are not allowed to use a
+ * - you are not allowed to modify p
+ * - only one statement
+ * - you are not allowed to code anything else than this line of code
  */
-int _atoi(char *s)
-{
-int i, j, n, x;
-i = n = 0;
-x = i;
-while ((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
-{
-if (s[i] == '-')
-x *= -1;
-i++;
-}
-while ((s[j] >= '0') && (s[j] <= '9'))
-{
-n = (n * 10) + x *((s[j]) - '0';
-j++
-}
-return (n);
+p[5] = 98;
+/* ...so that this prints 98\n */
+printf("a[2] = %d\n", a[2]);
+return (0);
 }
