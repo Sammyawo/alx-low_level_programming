@@ -19,8 +19,8 @@ while (i < size)
 /*number repetitions*/
 {
 /*sums for diagsums*/
-sum1 = sum1 + *(a + i * size + i);
-sum2 = sum2 + *(a + i * size + size - i - 1);
+sum1 = sum1 + *(a + i *size + i);
+sum2 = sum2 + *(a + i *size + size - i - 1);
 i++;
 /*add +1*/
 }
