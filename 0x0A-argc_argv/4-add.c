@@ -4,10 +4,11 @@
 #include <string.h>
 
 /**
- * check_num - check - string there are digit
- *
+ * check_num - check if string are digit
  * @str: array str
- * Return: Always 0 (Success)
+ *
+ * Return: On success 1
+ * If not a number, 0 is returned.
  */
 int check_num(char *str)
 {
@@ -28,7 +29,7 @@ return (1);
 }
 
 /**
- * main - Print the name of the program
+ * main - Entry point
  *
  * @argc: Count arguments
  * @argv: Arguments
