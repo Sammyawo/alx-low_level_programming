@@ -46,11 +46,11 @@ return (NULL);
 for (i = 0; *(s1 + i) != '\0'; i++);
 {
 *(dst + i) = *(s1 + i);
-}
 for (j = 0; *(s2 + j) != '\0'; j++);
 {
 *(dst + i) = *(s2 + j);
 i++;
+}
 }
 return (dst);
 }
