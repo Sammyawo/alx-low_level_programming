@@ -39,7 +39,7 @@ return (NULL);
 n = wrdcnt(str);
 if (n == 1)
 return (NULL);
-x = (char **)malloc(n * sizeof(char *));
+x = (char **)malloc(n *sizeof(char *));
 if (x == NULL)
 return (NULL);
 x[n - 1] = NULL;
@@ -48,9 +48,10 @@ while (str[i])
 {
 if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 {
-for (j = 1; str[i + j] != ' ' && str[i + j]; j++);
+for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
+;
 j++;
-x[ch] = (char *)malloc(j * sizeof(char));
+x[ch] = (char *)malloc(j *sizeof(char));
 j--;
 if (x[ch] == NULL)
 {
