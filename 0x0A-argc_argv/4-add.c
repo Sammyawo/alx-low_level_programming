@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -31,9 +30,9 @@ return (1);
 
 /**
  * main - Entry point
- *
  * @argc: Count arguments
  * @argv: Arguments
+ *
  * return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
