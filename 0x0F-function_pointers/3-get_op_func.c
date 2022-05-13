@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "3-calc.h"
 /**
  * get_op_func - function pointer that selects the correct function to perform
@@ -20,11 +22,11 @@ op_t ops[] = {
 
 int i;
 i = 0;
-while (ops[i].op)
+while (i < 5)
 {
-if (strcmp(ops[i].op, s) == 0)
+if (*(ops[i].op) == *s)
 return (ops[i].f);
 i++;
 }
-return (NULL);
+return (ops[i].f);
 }
