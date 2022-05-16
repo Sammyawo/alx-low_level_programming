@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-/** int_index - earches for an integer
+/** 
+ * int_index - earches for an integer
  *
  * @array: array to search in
  * @size: size of the array
