@@ -15,7 +15,7 @@ size_t men;
 men = 0;
 while (h != NULL)
 {
-h = h -> next;
+h = h->next;
 men++;
 }
 return (men);
