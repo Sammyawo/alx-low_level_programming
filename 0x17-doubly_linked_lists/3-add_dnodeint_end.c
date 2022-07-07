@@ -9,7 +9,7 @@
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *mel, *headcopy;
-	*headcopy = head;
+	headcopy = *head;
 
 	if (head == NULL)
 		return (NULL);
