@@ -20,8 +20,8 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	mel->n = n;
 	if (*head == NULL)
 	{
-		h->next = NULL;
-		h->prev = NULL;
+		mel->next = NULL;
+		mel->prev = NULL;
 		*head = mel;
 	}
 	else
