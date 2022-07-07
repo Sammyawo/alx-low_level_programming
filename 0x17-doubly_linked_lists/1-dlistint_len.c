@@ -9,6 +9,7 @@ size_t dlistint_len(const dlistint_t *h)
 {
 	size_t i = 0;
 	int p = 0;
+
 	while (h != NULL)
 	{
 		if (h->prev != NULL && p == 0)
