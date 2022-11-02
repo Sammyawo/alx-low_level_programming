@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * linear_search - search the first ocurrency of a value in the array
  *
