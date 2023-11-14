@@ -1,1 +1,0 @@
-Memory allocations in C
